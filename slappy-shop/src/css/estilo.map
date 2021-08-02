@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "estilo.css",
+	"sources": [
+		"../scss/estilo.scss",
+		"../scss/_variables.scss",
+		"../scss/_generales.scss",
+		"../scss/_grilla.scss"
+	],
+	"sourcesContent": [
+		"@import \"variables\";\r\n@import \"generales\";\r\n@import \"grilla\";\r\n\r\n/*seccion izquierda*/\r\nsection{\r\n\ta{\r\n\t\tp, small{\r\n\t\t\tcolor:black;\r\n\t\t\tdiv{\r\n\t\t\t\th5, small{\r\n\t\t\t\t\tcolor:black;\r\n\t\t\t\t}\t\r\n\t\t\t}\r\n\t\t}\t\r\n\t}\t\r\n}\r\n\r\n/*MIS LETRAS*/\r\n.Titulos{    \r\n    font-family: 'Big Shoulders Display', cursive;\r\n}\r\n.miFont{\r\n\t font-family: 'Mukta', sans-serif;\r\n} \r\n.navFontColor{\r\n\tcolor: black !important;\r\n\tfont-weight: bolder;\r\n}",
+		"$font-size:(\r\n\t\"tamaño-1\":75px,\r\n\t\"tamaño-2\":32px,\r\n\t\"tamaño-3\":18px,\r\n\t); \r\n@each $key, $value in $font-size{\r\n\t.font-size-#{$key}{\r\n\t\tfont-size: $value;\r\n\t}\r\n}\r\n\r\n  ",
+		"@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Mukta:wght@300&display=swap');\r\n*{\r\n\tmargin:0px;\r\n\tpadding:0px;\r\n}\r\n",
+		"nav{\r\n\twidth: 100%;\r\n\tbackground-color: yellow;\r\n}\r\nul{\r\n\tmargin-left: 1150px;\r\n}\r\nh1{\r\n\tmargin-left: 20px;\r\n}\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ";AEAA,OAAO,CAAC,iHAAI;;ADMX,AAAA,mBAAmB,CAAD;EACjB,SAAS,EANC,IAAI;CAOd;;;AAFD,AAAA,mBAAmB,CAAD;EACjB,SAAS,EALC,IAAI;CAMd;;;AAFD,AAAA,mBAAmB,CAAD;EACjB,SAAS,EAJC,IAAI;CAKd;;;ACPF,AAAA,CAAC,CAAA;EACA,MAAM,EAAC,GAAG;EACV,OAAO,EAAC,GAAG;CACX;;;ACJD,AAAA,GAAG,CAAA;EACF,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,MAAM;CACxB;;;AACD,AAAA,EAAE,CAAA;EACD,WAAW,EAAE,MAAM;CACnB;;;AACD,AAAA,EAAE,CAAA;EACD,WAAW,EAAE,IAAI;CACjB;;AHLD,qBAAqB;;AACrB,AAEE,OAFK,CACN,CAAC,CACA,CAAC,EAFH,OAAO,CACN,CAAC,CACG,KAAK,CAAA;EACP,KAAK,EAAC,KAAK;CAMX;;;AATH,AAKI,OALG,CACN,CAAC,CACA,CAAC,CAEA,GAAG,CACF,EAAE,EALN,OAAO,CACN,CAAC,CACA,CAAC,CAEA,GAAG,CACE,KAAK,EALb,OAAO,CACN,CAAC,CACG,KAAK,CAEP,GAAG,CACF,EAAE,EALN,OAAO,CACN,CAAC,CACG,KAAK,CAEP,GAAG,CACE,KAAK,CAAA;EACR,KAAK,EAAC,KAAK;CACX;;AAML,cAAc;;AACd,AAAA,QAAQ,CAAA;EACJ,WAAW,EAAE,gCAAgC;CAChD;;;AACD,AAAA,OAAO,CAAA;EACL,WAAW,EAAE,mBAAmB;CACjC;;;AACD,AAAA,aAAa,CAAA;EACZ,KAAK,EAAE,gBAAgB;EACvB,WAAW,EAAE,MAAM;CACnB"
+}

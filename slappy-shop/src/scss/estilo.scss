@@ -1,0 +1,29 @@
+@import "variables";
+@import "generales";
+@import "grilla";
+
+/*seccion izquierda*/
+section{
+	a{
+		p, small{
+			color:black;
+			div{
+				h5, small{
+					color:black;
+				}	
+			}
+		}	
+	}	
+}
+
+/*MIS LETRAS*/
+.Titulos{    
+    font-family: 'Big Shoulders Display', cursive;
+}
+.miFont{
+	 font-family: 'Mukta', sans-serif;
+} 
+.navFontColor{
+	color: black !important;
+	font-weight: bolder;
+}
