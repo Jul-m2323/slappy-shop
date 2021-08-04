@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import NavBar from "./componentes/navBar";
+import ItemCard from './componentes/itemListContainer';
 
 
-ReactDOM.render(<App/>, document.getElementById("root"));
+ReactDOM.render(<><NavBar/><ItemCard/></>, document.getElementById("root"));

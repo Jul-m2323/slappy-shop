@@ -8,4 +8,14 @@ ul{
 h1{
 	margin-left: 20px;
 }
-
+.miShop{
+	display: inline;
+	justify-content: start;
+	align-items: stretch;
+}
+.miCard{
+	display: flex;
+	align-items: center;
+	height: 125px;
+	width: 78px;
+}

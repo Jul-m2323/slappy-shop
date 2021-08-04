@@ -1,10 +1,11 @@
 import React from "react";
 import '../css/estilo.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Carrito from "./cartWidget";
 
 
-export default function NavBar (){
-    return (
+const NavBar =() => {
+	return(
     <header>
         <nav className="navbar bg-yellow navbar-expand-xl">
 			<div className="fixed-top">
@@ -33,8 +34,11 @@ export default function NavBar (){
 			   		<a className="nav-link miFont navFontColor" href="encontranos.html">Encontranos</a>
 			  	</li>
 			    </ul>
+				<Carrito/>
 		    </div>
 	    </nav>
     </header>
     )
 }
+
+export default NavBar;

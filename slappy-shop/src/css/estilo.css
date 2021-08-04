@@ -37,6 +37,21 @@ h1 {
   margin-left: 20px;
 }
 
+/* line 11, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
+.miShop {
+  display: inline;
+  justify-content: start;
+  align-items: stretch;
+}
+
+/* line 16, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
+.miCard {
+  display: flex;
+  align-items: center;
+  height: 125px;
+  width: 78px;
+}
+
 /*seccion izquierda*/
 /* line 8, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/estilo.scss */
 section a p, section a small {
