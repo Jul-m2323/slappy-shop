@@ -55,6 +55,16 @@ h1 {
   margin-left: 750px;
 }
 
+/* line 25, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
+.itemCount {
+  margin-left: 750px;
+}
+
+/* line 27, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
+.itemCount button {
+  margin-left: 9px;
+}
+
 /*seccion izquierda*/
 /* line 8, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/estilo.scss */
 section a p, section a small {
