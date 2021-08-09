@@ -1,6 +1,5 @@
 import React from "react";
 import '../css/estilo.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import Carrito from "./cartWidget";
 
 

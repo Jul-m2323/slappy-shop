@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import NavBar from "./componentes/navBar";
-import ItemCard from './componentes/itemListContainer';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import App from "./App";
 
 
-ReactDOM.render(<><NavBar/><ItemCard/></>, document.getElementById("root"));
+ReactDOM.render(<><App/></>, document.getElementById("root"));

@@ -53,7 +53,7 @@ const ItemCard = () => {
             return (
                 <div className="miShop container-fluid">
                     <div className="row">
-                        <div className="card miCard col-12 col-sm-6 col-md-2 col-lg-2 col-xl-2" >
+                        <div className="card miCard col-12" >
                             <img src={producto.img} className="card-img-top" alt="..."/>
                             <div className="card-body">
                             <p className="card-text articulos">{producto.nombre}</p>
