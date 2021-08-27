@@ -1,6 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ItemCount from './ItemCount';
+import Items from './Items';
+
 const productos = [
     {
         nombre:'Bolso Playero Slappy DIY',
@@ -44,8 +46,6 @@ const productos = [
     },			 				
 ];
 
-
-
 const ItemCard = () => {
     return(
     <div>
@@ -71,13 +71,6 @@ const ItemCard = () => {
     );
 }
 
-let promesa = new Promise((resolve,reject) => {
-    setTimeout(
-        function (){
-            resolve (ItemCard);
-        },3000
-    );
-});
 
 console.log(promesa)
 export default ItemCard;
