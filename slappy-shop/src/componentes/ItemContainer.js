@@ -12,24 +12,25 @@ const ItemCard = () => {
         darItems(productos);
     })
        
-    return(
-    <div>{ productos.map(({img, precio, nombre}) => { 
-        <div className="miShop container-fluid">
-            <div className="row">
-                <div className="card miCard col-12" >
-                    <img src={productos.img} key={img} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                    <p className="card-text articulos" key={nombre}>{productos.nombre}</p>
-                    <p key={precio}>  {productos.precio} $</p>
-                    <ItemCount/>
+    
+     productos.map(() => { 
+         return(
+            <div className="miShop container-fluid">
+                <div className="row">
+                    <div className="card miCard col-12" >
+                        <img src={productos.img} key={productos.img} className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                        <p className="card-text articulos" key={productos.nombre}>{productos.nombre}</p>
+                        <p key={productos.precio}>{productos.precio}$</p>
+                        <ItemCount/>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>})}  
-    </div>       
+            )
+        }         
     );
 }
 
 
-console.log(promesa)
 export default ItemCard;
