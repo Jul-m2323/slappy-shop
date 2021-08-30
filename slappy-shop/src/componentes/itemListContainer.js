@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/estilo.css'
-import ItemCard from './Item';
+import ItemCard from './Items';
 
 
 const ListaProductos = () => {
