@@ -6,30 +6,38 @@ import darItems from './Items';
 
 
 const ItemCard = () => {
-    const [productos, setProductos] = useState ();
+    const [productos, setProductos] = useState ([]);
     
     useEffect( () => {
-        darItems(productos);
-    })
+        const prueba = darItems(productos);
+        setProductos(prueba)
+    },[]);
        
-    
-     productos.map(() => { 
-         return(
-            <div className="miShop container-fluid">
-                <div className="row">
-                    <div className="card miCard col-12" >
-                        <img src={productos.img} key={productos.img} className="card-img-top" alt="..."/>
-                        <div className="card-body">
-                        <p className="card-text articulos" key={productos.nombre}>{productos.nombre}</p>
-                        <p key={productos.precio}>{productos.precio}$</p>
-                        <ItemCount/>
+    return(
+        <div className="miShop container-fluid">
+            <div className="row">
+            {
+            productos.length < 1 ?
+            <h1></h1>
+            :
+            productos.map(elemento => { 
+                return(        
+                        <div className="card miCard col-12" >
+                            <img src={elemento.img} key={elemento.img} className="card-img-top" alt="..."/>
+                            <div className="card-body">
+                            <p className="card-text articulos" key={elemento.nombre}>{productos.nombre}</p>
+                            <p key={elemento.precio}>{productos.precio}$</p>
+                            <ItemCount/>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
+                    )
+                }         
             )
-        }         
-    );
+            }
+            </div>
+        </div>
+    )
+     
 }
 
 
