@@ -1,12 +1,10 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import NavBar from "./navBar";
-import ItemCard from "./ItemContainer";
+import Home from "./home";
 
 const App = () => {
-    return <><NavBar/>
-            <ItemCard/>
-            </>
+    return <div>
+    		<Home />
+           </div>
 }
 
 export default App;

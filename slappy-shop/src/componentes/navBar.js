@@ -1,6 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '../css/estilo.css'
 import Carrito from "./cartWidget";
+import Shop from "./shop";
+import home from "./home"
+import Nosotros from "./nosotros"
+import News from "./noticias"
 
 
 const NavBar =() => {
@@ -18,20 +23,20 @@ const NavBar =() => {
 			<div id="navbarToggleExternalContent" className="collapse navbar-collapse miHeader">
 				<ul className="nav">
 			  	    <li className="nav-item">
-			   		<a className="nav-link active miFont navFontColor" href="index.html">Inicio</a>
+					<Link to={`/home`}>Home</Link>
 			  	    </li>
 			  	    <li className="nav-item">
-			   		<a className="nav-link miFont navFontColor" href="shop.html">shop</a>
+					  <Link to={`/shop`}>Shop</Link>
 			  	    </li>
 			  	    <li className="nav-item">
-			   		<a className="nav-link miFont navFontColor" href="noticias.html">Noticias</a>
+					  <Link to={`/nosotros`}>Nosotros</Link>
 			  	    </li>
 			  	    <li className="nav-item">
-			   		<a className="nav-link miFont navFontColor" href="nosotros.html">Nosotros</a>
+					  <Link to={`/noticias`}>Noticias</Link>
 			  	    </li>
 			  	    <li className="nav-item">
-			   		<a className="nav-link miFont navFontColor" href="encontranos.html">Encontranos</a>
-			  	</li>
+					  <Link to={`/encontranos`}>Encontranos</Link>
+			  		</li>
 			    </ul>
 				<Carrito/>
 		    </div>

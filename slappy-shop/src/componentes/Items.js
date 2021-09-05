@@ -1,6 +1,3 @@
-import React from 'react';
-
-
 const productos = [
     {
         nombre:'Bolso Playero Slappy DIY',
