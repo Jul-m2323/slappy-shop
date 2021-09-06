@@ -1,11 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { BrowserRouter, Link } from "react-router-dom";
 import '../css/estilo.css'
-import Carrito from "./cartWidget";
-import Shop from "./shop";
-import home from "./home"
-import Nosotros from "./nosotros"
-import News from "./noticias"
+
+
 
 
 const NavBar =() => {
@@ -21,28 +18,29 @@ const NavBar =() => {
                 <h1 className="miFont Titulos">Slappy Shop</h1>
             </div>
 			<div id="navbarToggleExternalContent" className="collapse navbar-collapse miHeader">
-				<ul className="nav">
+				<BrowserRouter>
+				<ul className="nav miFont">
 			  	    <li className="nav-item">
-					<Link to={`/home`}>Home</Link>
+					<Link to={`/Home`}>Home</Link>
 			  	    </li>
 			  	    <li className="nav-item">
-					  <Link to={`/shop`}>Shop</Link>
+					  <Link to={`/Shop`}>Shop</Link>
 			  	    </li>
 			  	    <li className="nav-item">
-					  <Link to={`/nosotros`}>Nosotros</Link>
+					  <Link to={`/Nosotros`}>Nosotros</Link>
 			  	    </li>
 			  	    <li className="nav-item">
-					  <Link to={`/noticias`}>Noticias</Link>
+					  <Link to={`/News`}>Noticias</Link>
 			  	    </li>
 			  	    <li className="nav-item">
-					  <Link to={`/encontranos`}>Encontranos</Link>
+					  <Link to={`/Encontranos`}>Encontranos</Link>
 			  		</li>
 			    </ul>
-				<Carrito/>
+				</BrowserRouter>
 		    </div>
 	    </nav>
     </header>
     )
-}
+};
 
 export default NavBar;

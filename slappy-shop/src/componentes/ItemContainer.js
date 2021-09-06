@@ -12,7 +12,7 @@ const ItemCard = () => {
        const prueba = darItem(productos);
        console.log(prueba)
        setProductos(prueba)
-    }, [])
+    }, [productos])
        
     return(
         <div>
