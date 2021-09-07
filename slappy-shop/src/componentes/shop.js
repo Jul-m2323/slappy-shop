@@ -1,14 +1,14 @@
 import React from 'react';
 import Carrito from './cartWidget';
-import ListaProductos from './itemListContainer';
+import ItemCard from './itemContainer';
 import '../css/estilo.css'
 
 const Shop = () =>{
     return(
-        <div>
-            <h2 className="Titulos miFont">Shop</h2>
-            <ListaProductos />
+        <div>            
+            <ItemCard />
             <Carrito />
+            <h2 className="Titulos miFont">Shop</h2>
         </div>    
     )
 };
