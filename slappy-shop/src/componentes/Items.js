@@ -37,7 +37,7 @@ const productos = [
     {
         nombre:'Varillas de Skate Slappy',
         precio:400,
-        img:"../multimedia/varas_skate.jpg" ,  
+        img:"../multimedia/varas_skate" ,  
     },			 				
 ];
    

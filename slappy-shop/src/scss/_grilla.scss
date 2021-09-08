@@ -25,6 +25,12 @@ h1{
 	display: inline;
 	justify-content: start;
 	align-items: stretch;
+	div{
+		img{
+			width: 45px;
+			height: 145px;
+		}
+	}
 }
 .miCard{
 	height: 225px;

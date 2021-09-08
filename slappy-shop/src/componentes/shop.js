@@ -1,6 +1,6 @@
 import React from 'react';
 import Carrito from './cartWidget';
-import ItemCard from './itemContainer';
+import ItemCard from './ItemContainer';
 import '../css/estilo.css'
 
 const Shop = () =>{

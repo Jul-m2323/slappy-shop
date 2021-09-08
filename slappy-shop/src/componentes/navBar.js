@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import '../css/estilo.css'
 
 
@@ -18,25 +18,23 @@ const NavBar =() => {
                 <h1 className="miFont Titulos">Slappy Shop</h1>
             </div>
 			<div id="navbarToggleExternalContent" className="collapse navbar-collapse miHeader">
-				<BrowserRouter>
 				<ul className="nav miFont">
 			  	    <li className="nav-item">
-					<Link to={`/Home`}>Home</Link>
+					<NavLink to={`/Home`}>Home</NavLink>
 			  	    </li>
 			  	    <li className="nav-item">
-					  <Link to={`/Shop`}>Shop</Link>
+					  <NavLink to={`/Shop`}>Shop</NavLink>
 			  	    </li>
 			  	    <li className="nav-item">
-					  <Link to={`/Nosotros`}>Nosotros</Link>
+					  <NavLink to={`/Nosotros`}>Nosotros</NavLink>
 			  	    </li>
 			  	    <li className="nav-item">
-					  <Link to={`/News`}>Noticias</Link>
+					  <NavLink to={`/News`}>Noticias</NavLink>
 			  	    </li>
 			  	    <li className="nav-item">
-					  <Link to={`/Encontranos`}>Encontranos</Link>
+					  <NavLink to={`/Encontranos`}>Encontranos</NavLink>
 			  		</li>
 			    </ul>
-				</BrowserRouter>
 		    </div>
 	    </nav>
     </header>
