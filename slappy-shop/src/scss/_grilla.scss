@@ -25,17 +25,15 @@ h1{
 	display: inline;
 	justify-content: start;
 	align-items: stretch;
-	div{
-		img{
-			width: 45px;
-			height: 145px;
-		}
-	}
+}
+.imgProp{
+	width: 125px;
 }
 .miCard{
-	height: 225px;
-	width: 178px;
-	margin-left:750px;
+	display: flex;
+	div{
+		flex-direction: column-reverse;
+	}
 }
 .itemCount{
 		margin-left: 750px;

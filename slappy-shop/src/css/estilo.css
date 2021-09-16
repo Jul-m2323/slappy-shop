@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Mukta:wght@300&display=swap");
 /* line 7, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_variables.scss */
 .font-size-tamaño-1 {
   font-size: 75px;
@@ -13,12 +12,6 @@
 /* line 7, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_variables.scss */
 .font-size-tamaño-3 {
   font-size: 18px;
-}
-
-/* line 2, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_generales.scss */
-* {
-  margin: 0px;
-  padding: 0px;
 }
 
 /* line 1, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
@@ -62,50 +55,58 @@ h1 {
 }
 
 /* line 29, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
+.imgProp {
+  width: 125px;
+}
+
+/* line 32, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
 .miCard {
-  height: 225px;
-  width: 178px;
-  margin-left: 750px;
+  display: flex;
 }
 
 /* line 34, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
+.miCard div {
+  flex-direction: column-reverse;
+}
+
+/* line 38, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
 .itemCount {
   margin-left: 750px;
 }
 
-/* line 36, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
+/* line 40, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
 .itemCount button {
   margin-left: 9px;
 }
 
-/* line 40, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
+/* line 44, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
 .router {
   margin-top: 15em;
 }
 
 /*seccion izquierda*/
-/* line 8, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/estilo.scss */
+/* line 7, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/estilo.scss */
 section a p, section a small {
   color: black;
 }
 
-/* line 11, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/estilo.scss */
+/* line 10, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/estilo.scss */
 section a p div h5, section a p div small, section a small div h5, section a small div small {
   color: black;
 }
 
 /*MIS LETRAS*/
-/* line 20, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/estilo.scss */
+/* line 19, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/estilo.scss */
 .Titulos {
   font-family: 'Big Shoulders Display', cursive;
 }
 
-/* line 23, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/estilo.scss */
+/* line 22, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/estilo.scss */
 .miFont {
   font-family: 'Mukta', sans-serif;
 }
 
-/* line 26, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/estilo.scss */
+/* line 25, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/estilo.scss */
 .navFontColor {
   color: black !important;
   font-weight: bolder;

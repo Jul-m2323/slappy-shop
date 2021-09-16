@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Encontranos from "./encontranos";
 import Home from "./home";
@@ -32,4 +33,4 @@ const App = () => {
            </div>
 }
 
-export default App;
+export default App;                 

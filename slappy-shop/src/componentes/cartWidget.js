@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 class Carrito extends React.Component{ 
     render (){
         return(
+            
+            
             <div>
                 <button type="button" className="buttonCarrito btn btn-outline-warning">Carrito
                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
