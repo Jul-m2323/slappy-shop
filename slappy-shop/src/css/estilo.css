@@ -62,24 +62,20 @@ h1 {
 /* line 32, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
 .miCard {
   display: flex;
+  width: 250px;
 }
 
-/* line 34, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
+/* line 35, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
 .miCard div {
   flex-direction: column-reverse;
 }
 
-/* line 38, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
-.itemCount {
-  margin-left: 750px;
-}
-
-/* line 40, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
+/* line 41, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
 .itemCount button {
   margin-left: 9px;
 }
 
-/* line 44, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
+/* line 45, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
 .router {
   margin-top: 15em;
 }

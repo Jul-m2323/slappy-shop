@@ -5,10 +5,10 @@ import '../css/estilo.css'
 
 const Shop = () =>{
     return(
-        <div>            
+        <div>
+            <h2 className="Titulos miFont">Shop</h2>            
             <ItemCard />
             <Carrito />
-            <h2 className="Titulos miFont">Shop</h2>
         </div>    
     )
 };

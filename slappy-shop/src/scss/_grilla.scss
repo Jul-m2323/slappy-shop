@@ -31,12 +31,13 @@ h1{
 }
 .miCard{
 	display: flex;
+	width: 250px;
 	div{
 		flex-direction: column-reverse;
 	}
 }
 .itemCount{
-		margin-left: 750px;
+
 		button{
 			margin-left: 9px;
 		}
