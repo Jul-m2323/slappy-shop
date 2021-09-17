@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'
+
 import '../css/estilo.css'
 
-const ItemCount = () => {
-const [counter, setCounter] = useState(1)
+const ItemCount = ({stock}) => {
+const [cantidad, setCantidad] = useState(1)
 
-const sumProducto = () => setCounter (counter +1);
+const sumProducto = () =>{ cantidad <= stock ? setCantidad(stock) : setCantidad (cantidad +1)} 
 
-const restProducto = () => setCounter (counter -1);
+const restProducto = () => {cantidad <= 1 ?  setCantidad(1) : setCantidad (cantidad -1);}
 
 
     return(
