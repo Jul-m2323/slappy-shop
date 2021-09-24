@@ -70,14 +70,22 @@ h1 {
   flex-direction: column-reverse;
 }
 
-/* line 41, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
+/* line 40, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
 .itemCount button {
   margin-left: 9px;
 }
 
-/* line 45, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
+/* line 44, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
 .router {
   margin-top: 15em;
+}
+
+/* line 47, C:/Users/Julian/slappy-shop/slappy-shop/src/scss/_grilla.scss */
+.miBanner {
+  min-height: 420px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0 20px;
 }
 
 /*seccion izquierda*/

@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "estilo.css",
+	"sources": [
+		"../scss/estilo.scss",
+		"../scss/_variables.scss",
+		"../scss/_grilla.scss"
+	],
+	"sourcesContent": [
+		"@import \"variables\";\n@import \"grilla\";\n\n/*seccion izquierda*/\nsection{\n\ta{\n\t\tp, small{\n\t\t\tcolor:black;\n\t\t\tdiv{\n\t\t\t\th5, small{\n\t\t\t\t\tcolor:black;\n\t\t\t\t}\t\n\t\t\t}\n\t\t}\t\n\t}\t\n}\n\n/*MIS LETRAS*/\n.Titulos{    \n    font-family: 'Big Shoulders Display', cursive;\n}\n.miFont{\n\t font-family: 'Mukta', sans-serif;\n} \n.navFontColor{\n\tcolor: black !important;\n\tfont-weight: bolder;\n}",
+		"$font-size:(\n\t\"tamaño-1\":75px,\n\t\"tamaño-2\":32px,\n\t\"tamaño-3\":18px,\n\t); \n@each $key, $value in $font-size{\n\t.font-size-#{$key}{\n\t\tfont-size: $value;\n\t}\n}\n\n  ",
+		"nav{\n\tbackground-color: yellow;\n}\nbutton{\n\tsvg{\n\t\tmargin-left: 3px;\n\t}\n}\nul{\n\tmargin-left: 1220px;\n\tli{\n\t\tdisplay: flex;\n\t\tjustify-items: center;\n\t\tmargin-left: 25px;\n\t\tfont-size: 18px;\n\t}\n}\nh2{\n\tmargin-top: 100px;\n}\nh1{\n\tmargin-left: 20px;\n}\n.miShop{\n\tdisplay: inline;\n\tjustify-content: start;\n\talign-items: stretch;\n}\n.imgProp{\n\twidth: 125px;\n}\n.miCard{\n\tdisplay: flex;\n\twidth: 250px;\n\tdiv{\n\t\tflex-direction: column-reverse;\n\t}\n}\n.itemCount{\n\t\tbutton{\n\t\t\tmargin-left: 9px;\n\t\t}\n}\n.router{\n\tmargin-top: 15em;\n} \n.miBanner{\n\tmin-height: 420px;\n\tbackground-repeat: no-repeat;\n\tbackground-position: center;\n\tpadding: 0 20px;\n}"
+	],
+	"names": [],
+	"mappings": ";;ACMC,AAAA,mBAAmB,CAAD;EACjB,SAAS,EANC,IAAI;CAOd;;;AAFD,AAAA,mBAAmB,CAAD;EACjB,SAAS,EALC,IAAI;CAMd;;;AAFD,AAAA,mBAAmB,CAAD;EACjB,SAAS,EAJC,IAAI;CAKd;;;ACRF,AAAA,GAAG,CAAA;EACF,gBAAgB,EAAE,MAAM;CACxB;;;AACD,AACC,MADK,CACL,GAAG,CAAA;EACF,WAAW,EAAE,GAAG;CAChB;;;AAEF,AAAA,EAAE,CAAA;EACD,WAAW,EAAE,MAAM;CAOnB;;;AARD,AAEC,EAFC,CAED,EAAE,CAAA;EACD,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,MAAM;EACrB,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,IAAI;CACf;;;AAEF,AAAA,EAAE,CAAA;EACD,UAAU,EAAE,KAAK;CACjB;;;AACD,AAAA,EAAE,CAAA;EACD,WAAW,EAAE,IAAI;CACjB;;;AACD,AAAA,OAAO,CAAA;EACN,OAAO,EAAE,MAAM;EACf,eAAe,EAAE,KAAK;EACtB,WAAW,EAAE,OAAO;CACpB;;;AACD,AAAA,QAAQ,CAAA;EACP,KAAK,EAAE,KAAK;CACZ;;;AACD,AAAA,OAAO,CAAA;EACN,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,KAAK;CAIZ;;;AAND,AAGC,OAHM,CAGN,GAAG,CAAA;EACF,cAAc,EAAE,cAAc;CAC9B;;;AAEF,AACE,UADQ,CACR,MAAM,CAAA;EACL,WAAW,EAAE,GAAG;CAChB;;;AAEH,AAAA,OAAO,CAAA;EACN,UAAU,EAAE,IAAI;CAChB;;;AACD,AAAA,SAAS,CAAA;EACR,UAAU,EAAE,KAAK;EACjB,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,MAAM;EAC3B,OAAO,EAAE,MAAM;CACf;;AFhDD,qBAAqB;;AACrB,AAEE,OAFK,CACN,CAAC,CACA,CAAC,EAFH,OAAO,CACN,CAAC,CACG,KAAK,CAAA;EACP,KAAK,EAAC,KAAK;CAMX;;;AATH,AAKI,OALG,CACN,CAAC,CACA,CAAC,CAEA,GAAG,CACF,EAAE,EALN,OAAO,CACN,CAAC,CACA,CAAC,CAEA,GAAG,CACE,KAAK,EALb,OAAO,CACN,CAAC,CACG,KAAK,CAEP,GAAG,CACF,EAAE,EALN,OAAO,CACN,CAAC,CACG,KAAK,CAEP,GAAG,CACE,KAAK,CAAA;EACR,KAAK,EAAC,KAAK;CACX;;AAML,cAAc;;AACd,AAAA,QAAQ,CAAA;EACJ,WAAW,EAAE,gCAAgC;CAChD;;;AACD,AAAA,OAAO,CAAA;EACL,WAAW,EAAE,mBAAmB;CACjC;;;AACD,AAAA,aAAa,CAAA;EACZ,KAAK,EAAE,gBAAgB;EACvB,WAAW,EAAE,MAAM;CACnB"
+}

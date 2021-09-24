@@ -14,7 +14,8 @@ const restProducto = () => {cantidad <= 1 ?  setCantidad(1) : setCantidad (canti
         <div className="itemCount">
             <button onClick={restProducto} >-</button>
             <button onClick={sumProducto}>+</button>
-            <p>{counter}</p>
+            <p>{cantidad}</p>
+            <button>Agregar al Carrito </button>
         </div>
     )
 };

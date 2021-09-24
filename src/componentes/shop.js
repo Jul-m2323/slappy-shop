@@ -1,5 +1,5 @@
 import React from 'react';
-import Carrito from './cartWidget';
+import Carrito from './carrito';
 import ItemCard from './ItemContainer';
 import '../css/estilo.css'
 
