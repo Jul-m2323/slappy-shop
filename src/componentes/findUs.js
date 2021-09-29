@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Encontranos = () =>{
+const FindUs = () =>{
     return(
         <h1>Encontranos</h1>
     )
 };
 
-export default Encontranos;
+export default FindUs;

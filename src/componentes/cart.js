@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import CartContext from '../context/cartContext';
 
 
-const Carrito = () => { 
+const Cart = () => { 
     const cart = useContext(CartContext);
     
     console.log('Cart' , cart);
