@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Home from '../componentes/home';
-import Shop from '../componentes/shop';
-import Nosotros from '../componentes/nosotros';
-import Noticias from '../componentes/noticias';
-import Encontranos from '../componentes/encontranos';
-import NavBar from '../componentes/navBar';
+import Home from '.././componentes/home';
+import Shop from '.././componentes/shop';
+import Us from '.././componentes/Us';
+import News from '.././componentes/news';
+import FindUs from '.././componentes/FindUs';
+import NavBar from '.././componentes/navBar';
 
 function router() {
 
@@ -22,13 +22,13 @@ function router() {
             </Route>
             </CartContext.Provider>
             <Route path="/Nosotros">
-                <Nosotros />
+                <Us />
             </Route>
             <Route path="/Noticias">
-                <Noticias />    
+                <News />    
             </Route>
             <Route path="/Encontranos">
-                <Encontranos />
+                <FindUs />
             </Route>                
         </Switch>    
     </BrowserRouter>   

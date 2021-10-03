@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { createContext , useState }  from 'react';
 
-export const CartContext = React.createContext([]);
+export const CartContext = createContext([]);
 
-export const CartProvider = ({children}) => {
+const CartProvider = ({children}) => {
     const [items, setItems] = useState([]);
 
     const addItem = (item) => {
@@ -18,3 +18,4 @@ export const CartProvider = ({children}) => {
     );
 };
 
+export default CartProvider;

@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Nosotros = () => {
+const Us = () => {
     return (
         <h1>Nuestra Historia</h1>
     )
 };
 
-export default Nosotros;
+export default Us;
