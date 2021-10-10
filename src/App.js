@@ -1,14 +1,17 @@
 import React from "react";
-import { CartProvider } from "./context/cartContext";
-import router from "./router/router";
+import  { CartContext ,  CartProvider } from "./context/cartContext";
+import Router from "./router/Router";
 
 const App = () => {
-    return 
+    return( 
     <div>
+        <CartContext>
           <CartProvider>
-              <router />
-          </CartProvider> 
+              <Router />
+          </CartProvider>
+          </CartContext>   
     </div>
+    )
 }
 
 export default App;                 

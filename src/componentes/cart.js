@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 import '../css/estilo.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CartContext from '../context/cartContext';
+import  {CartContext} from '../context/cartContext';
 
 
 const Cart = () => { 
-    const cart = useContext(CartContext);
+    const { cart } = useContext(CartContext);
     
     console.log('Cart' , cart);
 

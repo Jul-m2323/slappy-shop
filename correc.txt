@@ -1,0 +1,35 @@
+Hola Julian!
+Tienes importado tu CartProvider así:
+import { CartProvider } from "./context/cartContext";
+Peeero lo estás exportando como:
+export default CartProvider;
+Así que como es un export default, tienes que importarlo así:
+import CartProvider from "./context/cartContext";
+18:32
+Aparte tienes esto:
+return 
+    <div>
+      <CartProvider>
+        <router />
+      </CartProvider>
+    </div>
+Esto no retorna nada....
+Recuerda que si retornas mas de una linea debes cerrarlo entre paréntesis así:
+return (
+    <div>
+      <CartProvider>
+        <router />
+      </CartProvider>
+    </div>
+  );
+18:33
+el archivo Router debe iniciar con mayúscula. en lugar de router.js debe ser Router.js
+18:34
+También adentro del archivo deber importar export default Router, no router
+18:35
+Luego de arreglas eso, sale un error de que no encuentra fidUs, luego de solucionarlo aparece un error que no está definido CartContextt, y etc
+18:36
+Ve solucionando los errores conforme te dice la app..
+Aparte recuerda que todo debería estar nombrado en inglés
+18:36
+Y los ocmponentes debería ir en mayusculas

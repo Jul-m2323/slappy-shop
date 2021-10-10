@@ -1,13 +1,14 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Home from '.././componentes/home';
-import Shop from '.././componentes/shop';
-import Us from '.././componentes/Us';
-import News from '.././componentes/news';
-import FindUs from '.././componentes/FindUs';
-import NavBar from '.././componentes/navBar';
+import { CartContext } from '../context/cartContext';
+import Home from '../componentes/home';
+import Shop from '../componentes/shop';
+import Us from '../componentes/Us';
+import News from '../componentes/news';
+import FindUs from '../componentes/findUs';
+import NavBar from '../componentes/navBar';
 
-function router() {
+function Router() {
 
     return (
         <BrowserRouter>
@@ -35,4 +36,7 @@ function router() {
     )
 }
 
-export default router;
+
+export default Router;
+
+  
